@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --cor-bg: tomato;
+}
 body{
     height: 100vh;
     display: flex;
@@ -11,4 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 12px;
+}
+.cor{
+    background-color:var(--cor-bg);
 }
